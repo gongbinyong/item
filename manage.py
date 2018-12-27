@@ -1,4 +1,5 @@
 from flask import Flask
+from redis import StrictRedis
 app = Flask(__name__)
 
 
